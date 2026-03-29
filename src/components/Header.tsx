@@ -27,9 +27,9 @@ const Header = () => {
   return (
     <>
       {/* Top bar - Red/Maroon brand color */}
-      <div className="bg-[color:hsl(235_100%_22%)] text-primary-foreground py-2 hidden md:block">
-        <div className="container mx-auto px-4 flex justify-between items-center text-sm">
-          <div className="flex items-center gap-6">
+      <div className="bg-[color:hsl(235_100%_22%)] text-primary-foreground py-2">
+        <div className="container mx-auto px-4 flex items-center justify-center md:justify-between text-xs sm:text-sm">
+          <div className="flex items-center gap-4 sm:gap-6 whitespace-nowrap">
             <a href="tel:+919414932080" className="flex items-center gap-2 hover:text-accent transition-colors">
               <Phone className="w-4 h-4" />
               <span>+91-9414932080, 8696932080</span>
@@ -56,13 +56,13 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <a href="#home" className="flex items-center gap-3">
+            <a href="#home" className="flex items-center gap-3 text-center sm:text-left">
               <img 
                 src="/logo.png" 
                 alt="Shree Radhey Technology Logo" 
                 className="w-13 h-12 object-contain"
               />
-              <div className="hidden sm:block">
+              <div className="text-center sm:text-left">
                 <h1 className="font-display font-bold text-xl text-foreground leading-tight">
                   Shree Radhey Technology
                 </h1>
