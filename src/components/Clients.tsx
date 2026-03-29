@@ -65,7 +65,7 @@ const Clients = () => {
                     <img
                       src={client.logo}
                       alt={`${client.name} logo`}
-                      className="max-w-full max-h-full object-contain opacity-70 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0"
+                      className="max-w-full max-h-full object-contain opacity-90 transition-opacity"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
                         const fallback = e.currentTarget.nextElementSibling as HTMLElement;
@@ -93,7 +93,7 @@ const Clients = () => {
                     <img
                       src={client.logo}
                       alt={`${client.name} logo`}
-                      className="max-w-full max-h-full object-contain opacity-70 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0"
+                      className="max-w-full max-h-full object-contain opacity-90 transition-opacity"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
                         const fallback = e.currentTarget.nextElementSibling as HTMLElement;
