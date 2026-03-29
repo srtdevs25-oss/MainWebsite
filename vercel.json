@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/download-certificate.php",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
